@@ -1,10 +1,22 @@
-﻿namespace ComeVolete
+﻿
+Console.WriteLine("Console Start App");
+Console.WriteLine("Inserire il Nome");
+var name = Console.ReadLine();
+
+Console.WriteLine("Inserire una Lettera");
+var key = Console.ReadKey();
+
+if(key.Key == ConsoleKey.Y)
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
-    }
+
+}
+
+if (key.KeyChar == 'Y')
+{
+
+}
+
+if (key.KeyChar == 'y')
+{
+
 }
